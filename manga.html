@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <style>
+        .card {
+            float: left;
+            width: 18rem;
+            margin: 20px;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            background-image: url(https://media.istockphoto.com/id/1019217092/photo/abstract-blurred-public-library-interior-space-blurry-room-with-bookshelves-by-defocused.jpg?s=612x612&w=0&k=20&c=1vYUq97bxgfqvwEEoMxB3PtsKShoTC3TcYn74MbSYSQ=);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h2 {
+            color: black;
+        }
+
+        /* Style for horizontal cards */
+        .horizontal-cards {
+            display: flex;
+            overflow-x: auto;
+            margin-top: 20px;
+        }
+
+        /* Additional style for consistency */
+        .card img {
+            width: 100%;
+            height: 300px; /* Set a consistent height for all images */
+            object-fit: cover; /* Maintain aspect ratio and cover the container */
+        }
+    </style>
+
+    <div class="container">
+        <h2>Manga Books</h2>
+        <div class="horizontal-cards">
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/91fKOWoG9HL._SY425_.jpg" class="d-block w-100" alt="Book 1">
+                <div class="card-body">
+                    <h5 class="card-title">Satoshi Kon's: Opus</h5>
+                    <p class="card-text">brilliant anime director Satoshi Kon (Paprika, Paranoia Agent, Tokyo Godfathers, Millennium Actress...)</p>
+                    <a href="#" class="btn btn-primary">BUY NOW</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/61e+rm290AL._SY445_SX342_.jpg" class="card-img-top" alt="Book 2">
+                <div class="card-body">
+                    <h5 class="card-title">The Garden of Words </h5>
+                    <p class="card-text">The Garden of Words brings to the manga page all the beauty and mystery of the award-winning film from...</p>
+                    <a href="#" class="btn btn-primary">BUY NOW</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/51p49fkMMXL._SY445_SX342_.jpg" class="card-img-top" alt="Book 3">
+                <div class="card-body">
+                    <h5 class="card-title">Vinland Saga 2 </h5>
+                    <p class="card-text">At the turn of the 11th century, the North Sea is in the grip of the Viking terror. Askeladd leads his small band of mercen....</p>
+                    <a href="#" class="btn btn-primary">BUY NOW</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/91zHm4KldfS._SY425_.jpg" class="card-img-top" alt="Book 4">
+                <div class="card-body">
+                    <h5 class="card-title">orange: The Complete Collection 1</h5>
+                    <p class="card-text">When sixteen-year-old Takamiya Naho receives a mysterious letter, claiming to be from her twenty-seven-year-old self, her...</p>
+                    <a href="#" class="btn btn-primary">BUY NOW</a>
+                </div>
+            </div>
+            <!-- Add more cards as needed -->
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <style>
+        .card {
+            float: left;
+            width: 18rem;
+            margin: 20px;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            background-image: url(https://media.istockphoto.com/id/1019217092/photo/abstract-blurred-public-library-interior-space-blurry-room-with-bookshelves-by-defocused.jpg?s=612x612&w=0&k=20&c=1vYUq97bxgfqvwEEoMxB3PtsKShoTC3TcYn74MbSYSQ=);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h2 {
+            color: black;
+        }
+
+        /* Style for horizontal cards */
+        .horizontal-cards {
+            display: flex;
+            overflow-x: auto;
+            margin-top: 20px;
+        }
+
+        /* Additional style for consistency */
+        .card img {
+            width: 100%;
+            height: 300px; /* Set a consistent height for all images */
+            object-fit: cover; /* Maintain aspect ratio and cover the container */
+        }
+    </style>
+
+    <div class="container">
+        <h2>Superhero Books</h2>
+        <div class="horizontal-cards">
+            <div class="card">
+                <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388293260i/22369.jpg" class="d-block w-100" alt="Book 1">
+                <div class="card-body">
+                    <h5 class="card-title">All-Star Superman,Grant MorrisonFrank Quitely</h5>
+                    <p class="card-text">This top book is written by Grant MorrisonFrank Quitely. In the first volume, the World's Greatest...</p>
+                    <a href="#" class="btn btn-primary" id="buybtn">BUY NOW</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1574630214i/59980.jpg" class="card-img-top" alt="Book 2">
+                <div class="card-body">
+                    <h5 class="card-title">Batman: Year One</h5>
+                    <p class="card-text">This book is written by Frank Miller. This edition includes the complete graphic novel, a new introduction by writer Frank Miller and a new ...</p>
+                    <a href="#" class="btn btn-primary">BUY NOW</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1409501392i/17251114.jpg" class="card-img-top" alt="Book 3">
+                <div class="card-body">
+                    <h5 class="card-title">Thor: God of Thunder</h5>
+                    <p class="card-text">This book is written by Jason Aaron. Throughout the ages, gods have been vanishing, their mortal worshippers left in chaos. NOW!, Thor...</p>
+                    <a href="#" class="btn btn-primary" id="buybtn" id="buybtn">BUY NOW</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1498945627i/32940366.jpg" class="card-img-top" alt="Book 4">
+                <div class="card-body">
+                    <h5 class="card-title">She-Hulk</h5>
+                    <p class="card-text">This book is written byMariko Tamaki. Jennifer Walters has survived the second Civil War...barely. But, having risen from the rubble...</p>
+                    <a href="#" class="btn btn-primary" id="buybtn">BUY NOW</a>
+                </div>
+            </div>
+            <!-- Add more cards as needed -->
+        </div>
+    </div>
+</body>
+</html>

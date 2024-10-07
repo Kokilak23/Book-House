@@ -1,0 +1,34 @@
+.card{
+    width: 200px ;
+    height: 300px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 300px;
+    cursor: pointer;
+    
+}
+.card1{
+    margin-left: 100px;
+    background-image: url(webcomics.png);
+    background-position: center;
+    background-size: cover;
+    text-align:center;
+}
+.card2{
+    margin-left: 15px;
+    background-image: url(superhero.png);
+    background-position: center;
+    background-size:contain;
+
+}
+.card3{
+    margin-left: 15px;
+    background-image: url(manga.png);
+    background-position: center;
+    background-size: cover;
+}
+.card:hover {
+    transform: scale(1.1);
+  }

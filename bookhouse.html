@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <style>
+    #myCarousel {
+      height: 400px; /* Set a fixed height for the carousel container */
+    }
+
+    .carousel-inner img {
+      object-fit: cover; /* Ensure the images cover the entire container */
+      height: 100%; /* Make the images take up the full height of the container */
+      width: 100%; /* Make the images take up the full width of the container */
+    }
+
+    .carousel-caption {
+  background: transparent(0, 0, 0, 0.5);
+  color: black;
+  height: 200px;
+  width: 300px;
+  margin-bottom: 250px;/* Adjust this value as needed */
+}
+footer {
+  position: relative; /* Add this line */
+  margin-top: 200px; /* Adjust this margin based on your layout */
+}
+  </style>
+  <title>BOOK HOUSE</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="bookhouse.html">HOME</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#footer">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html" target="_blank">Pricing and offers</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Genre
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="fiction.html" id="fiction" >Fiction</a></li>
+              <li><a class="dropdown-item" href="nonfiction.html" id="nonfiction">Non-Fiction</a></li>
+              <li><a class="dropdown-item" href="comics.html" id="comics">Comics</a></li>
+              <li><a class="dropdown-item" href="drama.html" id="drama">Drama</a></li>
+              <li><a class="dropdown-item" href="politics.html" id="politics">Politics</a></li>
+              <li><a class="dropdown-item" href="business.html" id="business">Business</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ms-auto" style="list-style-type: none; margin: 0; padding: 0;">
+          
+          <li class="nav-item"><a class="nav-link">login</a></li>
+          <li class="nav-item"><a class="nav-link" href="library.html">BoOkS</a></li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://www.whatfontis.com/blog/wp-content/uploads/2018/05/way-to-design-steve-vassallo-foundation-capital-cover-design.jpg.pagespeed.ce_.uOJX47qpN3.jpg" class="d-block w-100" alt="Slide 1">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 style="font-size: 40px; text-align: center;">"A room without books is like a body without a soul." 
+            - Marcus Tullius Cicero</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://i0.wp.com/neuroclastic.com/wp-content/uploads/2021/10/bb5e9847-0bc8-4264-aebb-bbdd99358af9.jpg?fit=800%2C400&ssl=1" class="d-block w-100" alt="Slide 2">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 style="font-size: 40px; text-align: center;">"A reader lives a thousand lives before he dies. The man who never reads 
+            lives only one." - George R.R. Martin</h5>
+       
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://sparkspace.com/wp-content/uploads/Death-by-Meeting.png" class="d-block w-100" alt="Slide 3">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 style="font-size: 40px; text-align: center; color: aliceblue;">"A book is a dream that you hold in your hand."</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://solutionsreview.com/business-intelligence/files/2020/11/Best-Predictive-Analytics-Books.jpg" class="d-block w-100" alt="Slide 3">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 style="font-size: 40px; text-align: center; color: black;">"The man who does not read has no advantage over the man who cannot read." </h5>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Footer -->
+<footer class="text-center text-lg-start " id="footer" style="background-color:black; color:rgb(230, 235, 235);">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      
+      <h6 styel="text-align:center;" >ABOUT US</h6>
+      
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Book House
+            </h6>
+            <p>
+                “Good friends, good books, and a sleepy conscience: this is the ideal life.”
+            </p>
+          </div><!-- Grid column -->
+          <style>
+            .link:hover{
+              color:white;
+            }
+          </style>
+
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Information
+            </h6>
+            
+            <p>
+              <a href="Privacy.html" class="link active"target="_blank" >Privacy policy</a>
+            </p>
+            <p>
+              <a href="terms_conditions.html" class="link active" target="_blank">Terms & Conditions</a>
+            </p>
+           
+          </div>
+          <!-- Grid column -->
+          <style>
+            .link.active {
+              color: white; /* Set the color for active links */
+            }
+            .link:hover{
+              color:rgb(75, 75, 249);
+            }
+          </style>
+  
+           <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="pricing.html" class="link active" target="_blank">Pricing</a>
+            </p>
+            
+            
+            <p>
+              <a href="help.html" class="link active" target="_blank">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4" style="text-align:center;">Contact</h6>
+            <p><i class="fas fa-home me-3"></i>
+            Bangalore 560064, Karnataka,India</p>
+            <p>
+              <i class='bx bx-envelope'><a class="link active"></i>
+              Bookhouse212@gmail.com</a>
+            </p>
+            <p><i class='bx bx-phone'>+ 91-8767801238</p></i>
+            
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div></div>
+    </section>
+    <!-- Section: Links  -->
+    <br><br>
+    <!-- Copyright -->
+  <div class="text-center p-1" style="background-color:rgb(184, 214, 177);">
+    © 2023 Copyright:
+    <a class="link active" href="https://mdbootstrap.com/">GeorgeDP.com</a>
+  
+  <!-- Copyright -->
+  <style>
+    .social{
+        text-align: center;
+    }
+  </style>
+  <ul class="social">
+    <a href="https://www.instagram.com/"target="_blank"><i class='bx bxl-instagram' width="70"></i></a>
+    <a href="https://www.facebook.com/"target="_blank"><i class='bx bxl-facebook-circle'width="30"></a></i>
+    <a href="https://www.twitter.com/"target="_blank"><i class='bx bxl-twitter'width=35></a></i>
+</ul>
+</footer>
+</div>
+                     </div>
+                     </div>
+                     
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
